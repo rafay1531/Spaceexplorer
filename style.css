@@ -1,0 +1,177 @@
+body {
+  font-family: Helvetica;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+  /* side pe spacing k lye */
+  background-image: url(images/bggif.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.site-header {
+  padding: 0px;
+  background-color: #a02020;
+  border-bottom: 0px solid #6d4f4f;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-identity {
+  /* header ki editing */
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.site-identity h1 {
+  /* Space Explorer ki editing  */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3em;
+  background-size: cover;
+  margin: 0 0;
+  display: inline-block;
+  position: fixed;
+  top: 20px;
+  left: 375px;
+}
+
+.site-navigation {
+  /* menu ki editing */
+  position: fixed;
+  top: 5px;
+  right: 50px;
+  font-size: large;
+}
+
+.site-navigation li {
+  /* menu list ki editing */
+  display: inline-block;
+  margin: 1em 1em 1em 1em;
+
+}
+
+.container {
+  padding: 100px 20px;
+}
+
+.centered {
+  /* EXPLORING THE UNIVERSE editing */
+  color: #ffffff;
+  position: absolute;
+  top: 120px;
+  right: 50px;
+  font-family: cursive;
+  font-size: 30px;
+  text-align: left;
+}
+
+.centered2 {
+  /* What is a Universe editing */
+  position: absolute;
+  top: 90px;
+  left: 90px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.centered3 {
+  /* what is a universe descrption editing  */
+  position: absolute;
+  top: 130px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.extra {
+  position: relative;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px;
+  margin: 0%;
+  top: 20px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.details {
+  background-color: #292727;
+  margin: 0;
+}
+
+.details ul li {
+  display: inline-block;
+  padding: 0%;
+  margin: 10px 5px 10px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.video {
+  position: relative;
+  margin: 0%;
+  background-color: #000000;
+  width: 100%;
+  left: 0px;
+  text-align: center;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.video {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: larger;
+
+}
+
+/* FOOTER EDITING  */
+
+.footer {
+  padding: 20px 0;
+  background-color: #706b6b;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer ul a {
+  color: black;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: #1b1b1b;
+}
